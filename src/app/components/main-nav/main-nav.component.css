@@ -8,10 +8,28 @@
 
 .sidenav .mat-toolbar {
   background: inherit;
+  box-shadow: 3px 0 6px rgba(0,0,0.24);
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+/* @media(min-width:768px){
+  .sidenav {
+    display: none;
+  }
+} */
+.hidden {
+  display: none;
+}
+.spacer{
+  flex: 1 1 auto;
+}
+mat-toolbar a{
+ display: inline-block;
+ margin: 0 10px;
+ color: white;
+ text-decoration: none;
 }

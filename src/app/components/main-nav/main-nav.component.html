@@ -18,9 +18,13 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon" class='menu-icon'>menu</mat-icon>
       </button>
       <span>Learn Angular 7</span>
+      <span class="spacer"></span>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </mat-toolbar>
     <!-- Add Content Here -->
   </mat-sidenav-content>
